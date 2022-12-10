@@ -1,0 +1,70 @@
+{
+  "createBy": "http://liujiacai.net/gooreplacer/",
+  "version": "3.13.0",
+  "createAt": "2022/12/10 08:08:54",
+  "redirect-rules": [
+    {
+      "src": "themes.googleusercontent.com",
+      "dst": "themes.loli.net",
+      "kind": "wildcard",
+      "enable": true
+    },
+    {
+      "src": "apis.google.com/js/api.js",
+      "dst": "cdn.jsdelivr.net/gh/jiacai2050/gooreplacer@gh-pages/proxy/api.js",
+      "kind": "wildcard",
+      "enable": true
+    },
+    {
+      "src": "apis.google.com/js/plusone.js",
+      "dst": "cdn.jsdelivr.net/gh/jiacai2050/gooreplacer@gh-pages/proxy/plusone.js",
+      "kind": "wildcard",
+      "enable": true
+    },
+    {
+      "src": "fonts.gstatic.com",
+      "dst": "gstatic.loli.net",
+      "kind": "wildcard",
+      "enable": true
+    },
+    {
+      "src": "google.com/recaptcha",
+      "dst": "recaptcha.net/recaptcha",
+      "kind": "wildcard",
+      "enable": true
+    },
+    {
+      "src": "fonts.googleapis.com",
+      "dst": "fonts.loli.net",
+      "kind": "wildcard",
+      "enable": true
+    },
+    {
+      "src": "ajax.googleapis.com",
+      "dst": "ajax.loli.net",
+      "kind": "wildcard",
+      "enable": true
+    },
+    {
+      "src": "platform.twitter.com/widgets.js",
+      "dst": "cdn.jsdelivr.net/gh/jiacai2050/gooreplacer@gh-pages/proxy/widgets.js",
+      "kind": "wildcard",
+      "enable": true
+    },
+    {
+      "src": "secure.gravatar.com",
+      "dst": "gravatar.loli.net",
+      "kind": "wildcard",
+      "enable": true
+    },
+    {
+      "src": "g3.luciaz.me",
+      "kind": "wildcard",
+      "dst": "g.luciaz.me",
+      "enable": true
+    }
+  ],
+  "cancel-rules": [],
+  "request-headers": [],
+  "response-headers": []
+}
